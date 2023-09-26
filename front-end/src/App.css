@@ -1,0 +1,213 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #214954;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #214954;
+}
+
+.appButton {
+  margin: 25px;
+  width: 150px;
+  background-color: rgb(219, 241, 242);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  /* color: aliceblue; */
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+}
+
+
+.signup {
+  padding: 10px 100px;
+  display: inline-block;
+  text-align: center;
+  margin: 100px 600px;
+}
+
+.error-message {
+  display: block;
+  position: fixed;
+  top: 550px;
+  left: 400px;
+}
+
+.invalid {
+  float: right;
+  color: red;
+  margin-left: 25px;
+}
+
+.login {
+  padding: 10px 100px;
+  display: inline-block;
+  text-align: center;
+  margin: 142px 550px;
+}
+
+.shift-right {
+  float: right;
+}
+
+.deco {
+  color: rgb(206, 4, 4);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  padding: 0;
+  margin: 5px;
+  border: none;
+  text-decoration: none;
+  background-color: rgb(219, 241, 242);
+  overflow: visible;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.d-deco {
+  color: rgb(219, 241, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  text-decoration: none;
+  background-color: #214954;
+  overflow: visible;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.body-margin {
+  margin: 12px;
+}
+
+.list-box {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.card {
+  width: 29%;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: rgb(219, 241, 242);
+}
+
+.card-deco {
+  text-decoration: none;
+  color: #214954;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #214954;
+  color: aliceblue;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #214954;
+}
+
+.webcam {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .newClass {
+  text-align: center;
+  display: inline-table;
+  margin: 160px;
+  padding-left: 500px;
+} */
+
+#absentlist {
+  /* margin-top: -170px; */
+  width: 100%;
+  display: box;
+  text-align: center;
+  justify-content: center;
+}
+
+.absentlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.abstable {
+  padding: 6px;
+  border: 2px solid black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
